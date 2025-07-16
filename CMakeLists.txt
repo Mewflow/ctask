@@ -6,6 +6,5 @@ project(cTask
         VERSION 1.0.0
         LANGUAGES C CXX)
 
-add_executable(ctask main.cpp)
-target_link_directories(ctask PUBLIC taskLib)
+add_executable(ctask main.cpp src/Task.cpp)
 add_subdirectory(src)
