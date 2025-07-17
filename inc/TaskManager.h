@@ -8,7 +8,7 @@ class TaskManager {
         : taskList(tList)
         {}
 
-        void CreateNewTask(Task task);
+        void CreateNewTask();
 
     private:
         std::vector<Task> taskList;
