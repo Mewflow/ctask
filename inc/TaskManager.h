@@ -9,6 +9,7 @@ class TaskManager {
         {}
 
         void CreateNewTask();
+        void DeleteTask();
 
     private:
         std::vector<Task> taskList;
